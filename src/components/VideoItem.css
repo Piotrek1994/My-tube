@@ -2,9 +2,41 @@
     display: flex !important;
     align-items: center !important;
     cursor: pointer;
-
 }
 
 .video-item img {
     max-width: 180px;
+}
+
+
+#root {
+    background-color: #181818;
+    background-image: url(../assets/asfalt-dark.png);
+    color: white;
+}
+
+.search-bar {
+    background-color: #212121 !important;
+}
+
+.input {
+    background-color: #121212 !important;
+    color: white !important;
+}
+
+.header {
+    color: white !important;
+}
+
+.ui .segment {
+    background-color: #373737;
+}
+
+.ui.container {
+    margin-top: 20px;
+}
+
+html {
+    background-color: #181818;
+    background-image: url(../assets/asfalt-dark.png);
 }

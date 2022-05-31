@@ -39,7 +39,7 @@ class App extends React.Component {
             <div className="ten wide column">
               <VideoDetail video={this.state.selectedVideo} />
             </div>
-            <div className="five wide column">
+            <div className="six wide column">
               <VideoList
                 onVideoSelect={this.onVideoSelect}
                 videos={this.state.videos}

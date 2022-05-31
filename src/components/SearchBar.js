@@ -19,9 +19,8 @@ onFormSubmit = (event) => {
 		return (
 			<div className='search-bar ui segment'>
 				<form onSubmit={this.onFormSubmit} className='ui form'>
-					<div className='field'>
-						<label>Video search</label>
-						<input onChange={this.onInputChange} value={this.state.term} type='text'></input>
+					<div className='field'>						
+						<input onChange={this.onInputChange} value={this.state.term} type='text' placeholder='Search' className='input'></input>
 					</div>
 				</form>
 			</div>
