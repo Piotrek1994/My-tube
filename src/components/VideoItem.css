@@ -1,42 +1,73 @@
+
+
 .video-item {
-    display: flex !important;
-    align-items: center !important;
-    cursor: pointer;
+	display: flex !important;
+	align-items: center !important;
+	cursor: pointer;
 }
 
 .video-item img {
-    max-width: 180px;
+	max-width: 180px;
 }
-
 
 #root {
-    background-color: #181818;
-    background-image: url(../assets/asfalt-dark.png);
-    color: white;
+	background-color: #181818;
+	background-image: url(../assets/asfalt-dark.png);
+	color: white;
+    height: 100vh;
 }
 
-.search-bar {
-    background-color: #212121 !important;
+
+button {
+	width: 38px;
+	height: 38px;
+	background-image: url('../assets/Vector-Search.png');
+	background-position: center;
+	background-size: cover;
+	background-color: #373737;
+	border: none;
+	cursor: pointer;
 }
 
 .input {
-    background-color: #121212 !important;
-    color: white !important;
+	background-color: #121212 !important;
+	color: white !important;
+}
+
+form {
+	display: flex;
+	height: 100%;
+}
+
+.field {
+	display: flex;
+	justify-content: flex-end;
+	width: 100%;
 }
 
 .header {
-    color: rgb(255, 255, 255) !important;
+	color: rgb(255, 255, 255) !important;
 }
 
-.ui .segment {
-    background-color: #373737;
+.ui.segment {
+	background-color: #373737;
 }
 
 .ui.container {
-    margin-top: 20px;
+	margin-top: 20px;
 }
 
 html {
-    background-color: #181818;
-    background-image: url(../assets/asfalt-dark.png);
+	background-color: #181818;
+	background-image: url(../assets/asfalt-dark.png);
+}
+
+
+
+
+@media screen and (max-width: 1200px) { 
+   .video-item.item{
+       display: flex;
+       flex-direction: column;
+   }
 }

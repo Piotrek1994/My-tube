@@ -17,11 +17,12 @@ onFormSubmit = (event) => {
 
 	render() {
 		return (
-			<div className='search-bar ui segment'>
+			<div className='ui segment'>
 				<form onSubmit={this.onFormSubmit} className='ui form'>
 					<div className='field'>						
 						<input onChange={this.onInputChange} value={this.state.term} type='text' placeholder='Search' className='input'></input>
 					</div>
+				<button></button>
 				</form>
 			</div>
 		)
