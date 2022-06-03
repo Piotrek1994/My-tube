@@ -1,6 +1,6 @@
 # My Tube
 
-## Copy of the moste popular video platrform. 
+## Copy of the moste popular video platform.
 
 ###### To create this game I use folder and file structure, hooks, refs, React Context API.
 
